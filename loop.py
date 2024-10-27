@@ -5,7 +5,7 @@ for i in range(1, num_participants + 1):
     feedback_sum += feedback
 average = feedback_sum / num_participants
 print("The average feedback is", average)
-if average > 4:
+if average > 41:
     print("Very good")
 elif average > 3:
     print("Average feedback is average")
